@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+.App{
+  font-family: 'Inter', sans-serif;
+  width: 550px;
+  margin: 0 auto;
+}
+
+/* -------------------------  header ------------------------ */
+nav{
+  background-color: #F55A5A;
+  width: 100%;
+  height: 55px;
+  padding: 20px 0;
+  font-size: 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+  gap: 4px;
+}
+nav > img{
+  width: 24px;
+  height: 24px;
+  margin: auto 0;
+}
+nav > p{
+  margin: auto 0;
+  color: white;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 36px;
+}
+/* --------------card---------------- */
+
+
+
+.card{
+  width: 470px;
+  height: 168px;
+  display: flex;
+  gap: 25px;
+}
+
+.card > img{
+  width: 125px;
+  height: 168px;
+  border-radius: 4px;
+}
+
+
+.location--info > div{
+  font-size: 13.5px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.fa-solid{
+  color: #F55A5A;
+}
+
+.location--info > h1{
+  font-size: 25px;
+  margin-top: 0;
+}
+.date {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.location-desc{
+  font-size: 10.24px;
+  
+}
+.location{
+  color:  #918E9B;
+
+}
+.country{
+  letter-spacing: 2px;
+}
